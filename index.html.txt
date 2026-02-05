@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Salvnco Plumbing | Premium Service</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+        .ios-blur { backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px); }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-900">
+
+    <nav class="sticky top-0 z-50 bg-white/80 ios-blur border-b border-gray-200 p-4 flex justify-between items-center">
+        <h1 class="text-2xl font-bold tracking-tight text-blue-600">SALVNCO</h1>
+        <a href="tel:1234567890" class="bg-blue-600 text-white px-4 py-2 rounded-full text-sm font-semibold">Emergency?</a>
+    </nav>
+
+    <section class="p-6 pt-12 text-center bg-white">
+        <h2 class="text-4xl font-extrabold mb-4">Plumbing Excellence. <br><span class="text-blue-500">Simplified.</span></h2>
+        <p class="text-gray-500 mb-8">Premium residential & commercial plumbing services across the city.</p>
+        <img src="https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&w=800&q=80" alt="Modern Bathroom" class="rounded-2xl shadow-xl mb-6">
+    </section>
+
+    <section class="p-6">
+        <h3 class="text-xl font-bold mb-4">Our Services</h3>
+        <div class="grid grid-cols-2 gap-4">
+            <div class="bg-white p-4 rounded-2xl shadow-sm border border-gray-100">
+                <div class="text-2xl mb-2">🚿</div>
+                <p class="font-semibold">Leaking Taps</p>
+            </div>
+            <div class="bg-white p-4 rounded-2xl shadow-sm border border-gray-100">
+                <div class="text-2xl mb-2">🔥</div>
+                <p class="font-semibold">Hot Water</p>
+            </div>
+            <div class="bg-white p-4 rounded-2xl shadow-sm border border-gray-100">
+                <div class="text-2xl mb-2">🚽</div>
+                <p class="font-semibold">Blocked Drains</p>
+            </div>
+            <div class="bg-white p-4 rounded-2xl shadow-sm border border-gray-100">
+                <div class="text-2xl mb-2">🛠️</div>
+                <p class="font-semibold">Renovations</p>
+            </div>
+        </div>
+    </section>
+
+    <div class="fixed bottom-8 left-0 right-0 px-6">
+        <a href="tel:1234567890" class="flex items-center justify-center bg-black text-white w-full py-4 rounded-2xl shadow-2xl space-x-3 active:scale-95 transition-transform">
+            <span class="text-lg font-bold">Call Salvnco Now</span>
+        </a>
+    </div>
+
+    <div class="h-32"></div> </body>
+</html>
